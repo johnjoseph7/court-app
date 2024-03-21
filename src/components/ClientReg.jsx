@@ -7,7 +7,7 @@ export const ClientReg = () => {
     navigate("/verification");
   };
   return (
-    <div className="container-fluid position-relative">
+    <div className="container-fluid position-relative" style={{ height: "100vh" }}>
       <div className="triangle-top-left"></div>
       <div className="icon-top-left">
         <img
