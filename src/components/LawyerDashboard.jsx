@@ -16,7 +16,7 @@ export const LawyerDashboard = () => {
   return (
     <>
       <div
-        style={{ backgroundColor: "rgba(128, 128, 128, 0.15)", height: "auto" }}
+        style={{ backgroundColor: "rgba(128, 128, 128, 0.15)", height: "100vh" }}
       >        
       <SideBar />
         <div
