@@ -15,7 +15,7 @@ const Login = () => {
     }
   };
   return (
-    <div className="container-fluid position-relative">
+    <div className="container-fluid position-relative" style={{ height: "100vh" }}>
       <div className="triangle-top-left"></div>
       <div className="row mt-5 mb-5 justify-content-center align-item-center">
         <div className="col-12 col-md-6 col-lg-4 mt-3 mb-5">
