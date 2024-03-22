@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link,useNavigate } from "react-router-dom";
 
 const UserLogin = () => {
   const navigate = useNavigate();
@@ -12,10 +12,6 @@ const UserLogin = () => {
       navigate("/clientReg");
     } else if (str === "lawyerDashboard") {
       navigate("/lawyerDashboard");
-    } else if (str === "Login") {
-      navigate("/Login");
-    } else {
-      navigate("/Login");
     }
   };
   return (
@@ -75,9 +71,9 @@ const UserLogin = () => {
 
             <div className="mb-3">
               <small className="me-2 fw-500">No account?</small>
-              <a onClick={() => handleClick("Login")} href="/Login">
+              <Link to="/Login">
                 Create one
-              </a>
+              </Link>
             </div>
             <div className="triangle-bottom-right mt-2"></div>
           </div>
