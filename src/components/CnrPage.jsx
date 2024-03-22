@@ -58,35 +58,42 @@ export const CNRPage = () => {
 
       <div class="container-fluid mt-4">
         <div class="row">
-          <ol class="list-unstyled">
+   <ol class="list-unstyled">
             <li>
               <small>
-                Understanding how algorithms work in content recommendation
-                systems can be insightful
+                Use configure option in nside menu to manage your cases from
+                majority of the high courts or district courts or both
               </small>
             </li>
             <li>
               <small>
-                Understanding how algorithms work in content recommendation
-                systems can be insightful
+                If you know the CNR number of the case, enter the 16
+                alphanumaric CNR number without any- (hypergen) or space
               </small>
             </li>
             <li>
               <small>
-                Understanding how algorithms work in content recommendation
-                systems can be insightful
+                If you dont have the CNR number of the case then it can be
+                searched by other options licke case registrationNumber,Party
+                name, Advocate Name, etc, For this, click on the case Status
+                image
               </small>
             </li>
             <li>
               <small>
-                Understanding how algorithms work in content recommendation
-                systems can be insightful
+                Click on Case Number to view current status,entire history, and
+                orders/judgements delivered in the case
               </small>
             </li>
             <li>
               <small>
-                Understanding how algorithms work in content recommendation
-                systems can be insightful
+                When you view the history of the case you have option to "Save
+                the case" and can create your own portfolio of cases
+              </small>
+            </li>
+            <li>
+              <small>
+                For Future reference, your saved cases can be seen by my cases
               </small>
             </li>
           </ol>
