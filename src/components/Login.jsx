@@ -10,8 +10,6 @@ const Login = () => {
       navigate("/clientReg");
     } else if (str === "signin") {
       navigate("/signin");
-    } else {
-      navigate("/createLogin");
     }
   };
   return (
@@ -47,9 +45,9 @@ const Login = () => {
 
             <div className="mb-5">
               <small className="me-2 fw-500">Already have and account?</small>
-              <a onClick={() => handleClick("signin")} href="/signin">
+              <Link to="/signin">
                 Login
-              </a>
+              </Link>
             </div>
             <div className="triangle-bottom-right mt-2"></div>
           </div>
