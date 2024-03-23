@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 export const SideBar = ({ handleElementClick, active, setActive }) => {
   const navigate = useNavigate();
   const [showSidebar, setShowSidebar] = useState(false);
-  const [sideBar, setSideBar] = useState("");
+
   const toggleOffcanvas = () => {
     setShowSidebar(!showSidebar);
   };
@@ -50,7 +50,9 @@ export const SideBar = ({ handleElementClick, active, setActive }) => {
       </div>
 
       <div
-        className={`offcanvas offcanvas-start ${showSidebar ? "show" : ""}`}
+        className={`offcanvas offcanvas-start ${
+          showSidebar ? "show" : ""
+        }`}
         style={{
           width: "200px",
           maxWidth: "80%",
