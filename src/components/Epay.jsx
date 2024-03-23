@@ -1,5 +1,6 @@
 import { React, useState } from "react";
 import { Link } from "react-router-dom";
+import { SideBar } from "./SideBar";
 
 const Epay = () => {
   return (
@@ -214,6 +215,7 @@ export const Epay1 = () => {
 };
 
 export const Help = () => {
+  
   const [active, setActive] = useState("");
 
   const handleElementClick = (elementName) => {
