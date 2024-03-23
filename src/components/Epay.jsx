@@ -1,7 +1,6 @@
 import { React, useState } from "react";
 import { Link } from "react-router-dom";
 import { SideBar } from "./SideBar";
-import { act } from "react-dom/test-utils";
 
 const Epay = () => {
   return (
